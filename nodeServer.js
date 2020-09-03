@@ -2,7 +2,7 @@
 const http=require("http");
 //then we use the service to create a server. 
 //The create server always calls whenever our server is get trigerred.
-//There is always a request by  client and then we need to send the response to the client.
+//There is always a request by  client and then we need to send the response to the Client.
 const server=http.createServer(
     function(req,res)
     {
